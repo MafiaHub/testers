@@ -5,10 +5,6 @@ module.exports = phase => {
     const nextConfig = {
         target: 'serverless',
 
-        env: {
-            PRE_RELEASES: process.env.PRE_RELEASES == "true",
-        },
-
         webpack(config, options) {
             config.resolve.alias = {
                 ...config.resolve.alias,
