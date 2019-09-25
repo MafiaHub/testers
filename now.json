@@ -1,0 +1,10 @@
+{
+    "name": "testers",
+    "version": 2,
+    "scope": "mafiahub",
+    "alias": ["testers.mafiahub.dev"],
+    "env": {
+        "GITHUB_TOKEN": "@gh-token",
+        "PRE_RELEASES": true
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "MafiaHub Test",
+    "projects": [
+        {
+            "owner": "zaklaus",
+            "repository": "oakwood",
+            "alias": "mafiahub/oakwood"
+        }
+    ]
+}
