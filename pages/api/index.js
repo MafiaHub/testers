@@ -4,8 +4,6 @@ import {loadCache, bustCache} from 'utils/cache'
 export default async (req, res) => {
     const {projects} = config
 
-    console.log(process.env)
-
     if (req.query.cache == 'bust') {
         return bustCache(req, res)
     }

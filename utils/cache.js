@@ -16,6 +16,8 @@ const isOutdated = key => {
 }
 
 const refreshCache = async (owner, repo, alias) => {
+    console.log('PRE_RELEASES:', PRE_RELEASES)
+
     if (!GITHUB_TOKEN) {
         throw new Error('Token is not configured')
     }
