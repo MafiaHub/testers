@@ -1,5 +1,6 @@
 {
     "title": "MafiaHub Test",
+    "prereleases": true,
     "projects": [
         {
             "owner": "zaklaus",
