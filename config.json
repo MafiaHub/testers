@@ -3,7 +3,7 @@
     "prereleases": true,
     "projects": [
         {
-            "owner": "zaklaus",
+            "owner": "MafiaHub",
             "repository": "oakwood",
             "alias": "mafiahub/oakwood"
         }
